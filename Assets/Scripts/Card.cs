@@ -7,12 +7,10 @@ using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
-    // Public variables
     public string suit;
     public int rank;
     public bool isFaceUp;
 
-    // Private variables
     private SpriteRenderer spriteRenderer;
 
     public Card(string cardName)
@@ -20,11 +18,9 @@ public class Card : MonoBehaviour
         GameObject newGameObj = new GameObject(cardName);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         gameObject.AddComponent<Image>();
-        // Get the SpriteRenderer component
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Set the card's sprite based on its rank and suit
@@ -32,16 +28,13 @@ public class Card : MonoBehaviour
         Sprite sprite = Resources.Load<Sprite>(spriteName);
         spriteRenderer.sprite = sprite;
 
-        // Set the card's position and rotation
         transform.position = new Vector3(0, 0, 0);
         transform.rotation = Quaternion.identity;
 
-        // Set the card to face up by default
         isFaceUp = true;
         SetFaceUp(isFaceUp);
     }
 
-    // Method to get the name of the card's sprite
     private string GetSpriteName()
     {
         string spriteName = "card";
@@ -82,7 +75,7 @@ public class Card : MonoBehaviour
                 spriteName += rank.ToString();
                 break;
         }
-        //Debug.Log(spriteName);
+
         return spriteName;
     }
 
@@ -93,14 +86,11 @@ public class Card : MonoBehaviour
         isFaceUp = faceUp;
         if (isFaceUp)
         {
-
-            // Show the front of the card
             Sprite cardFront = Resources.Load<Sprite>(GetSpriteName());
             gameObject.GetComponent<Image>().sprite = cardFront;
         }
         else
         {
-            // Show the back of the card
             Sprite cardBack = Resources.Load<Sprite>("cardBack_blue2");
             gameObject.GetComponent<Image>().sprite = cardBack;
         }
