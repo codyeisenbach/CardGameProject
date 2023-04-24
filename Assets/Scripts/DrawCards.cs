@@ -14,15 +14,7 @@ public class DrawCards : MonoBehaviour
     public GameObject PlayerArea;
     public GameObject EnemyArea;
 
-    public Deck oldCards;
-
     private int handSize = 5;
-
-
-    void Start()
-    {
-        oldCards = GameObject.Find("Deck").GetComponent<Deck>();
-    }
 
 
     public void OnClick()
