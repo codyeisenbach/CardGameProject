@@ -47,40 +47,40 @@ public class Deck : MonoBehaviour
 
     void Start()
     {
-        ShuffleDeck();
-        int suitNumber = CardSuits.GetNames(typeof(CardSuits)).Length;
+        //ShuffleDeck();
+        //int suitNumber = CardSuits.GetNames(typeof(CardSuits)).Length;
 
-        int rankNumber = CardRanks.Length;
+        //int rankNumber = CardRanks.Length;
 
-        for (int i = 0; i < suitNumber; i++)
-        {
+        //for (int i = 0; i < suitNumber; i++)
+        //{
 
-            for (int j = 0; j < rankNumber; j++)
-            {
-                cardName = "";
-                cardName += "card" + ((CardSuits)i).ToString() + rankKeys[j];
+        //    for (int j = 0; j < rankNumber; j++)
+        //    {
+        //        cardName = "";
+        //        cardName += "card" + ((CardSuits)i).ToString() + rankKeys[j];
 
-                string cardSuit = CardSuits.GetNames(typeof(CardSuits))[i];
+        //        string cardSuit = CardSuits.GetNames(typeof(CardSuits))[i];
 
-                int cardRank = CardRanks[j];
-
-
-                newSprite = Resources.Load<Sprite>(cardName);
-
-                GameObject cardObject = Instantiate(Card, transform.position, transform.rotation);
-                cardObject.name = cardName;
-                Card cardComponent = cardObject.GetComponent<Card>();
-                cardObject.transform.SetParent(CardDeck.transform);
-                cardObject.AddComponent<SpriteRenderer>();
-                cardObject.GetComponent<SpriteRenderer>().sprite = newSprite;
-                cardComponent.suit = cardSuit;
-                cardComponent.rank = cardRank;
-                cardComponent.isFaceUp = false;
+        //        int cardRank = CardRanks[j];
 
 
-                newDeck.Add(cardObject);
-            }
-        }
+        //        newSprite = Resources.Load<Sprite>(cardName);
+
+        //        GameObject cardObject = Instantiate(Card, transform.position, transform.rotation);
+        //        cardObject.name = cardName;
+        //        Card cardComponent = cardObject.GetComponent<Card>();
+        //        cardObject.transform.SetParent(CardDeck.transform);
+        //        cardObject.AddComponent<SpriteRenderer>();
+        //        cardObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+        //        cardComponent.suit = cardSuit;
+        //        cardComponent.rank = cardRank;
+        //        cardComponent.isFaceUp = false;
+
+
+        //        newDeck.Add(cardObject);
+        //    }
+        //}
     }
 
     public void AddToDiscardPile(GameObject card)

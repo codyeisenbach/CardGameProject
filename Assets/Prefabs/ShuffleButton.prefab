@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 2831249622961833521}
   - component: {fileID: 8703062959826827884}
   - component: {fileID: 8703062959826827872}
-  - component: {fileID: 8703062960805423389}
   - component: {fileID: 8068623054834100838}
   - component: {fileID: 4242917760667010091}
   m_Layer: 5
@@ -127,7 +126,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8703062960805423389}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Deck, Assembly-CSharp
         m_MethodName: ShuffleDeck
         m_Mode: 1
@@ -157,26 +156,7 @@ MonoBehaviour:
   DiscardPile: {fileID: 0}
   PlayerArea: {fileID: 0}
   EnemyArea: {fileID: 0}
-  oldCards: {fileID: 0}
 --- !u!114 &8703062959826827872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2831249622961833522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d543c9468f2d40dea69763945487c7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CardRanks: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
-  CardDeck: {fileID: 0}
-  DiscardPile: {fileID: 0}
-  Card: {fileID: 0}
-  newDeck: []
-  discardPile: []
---- !u!114 &8703062960805423389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

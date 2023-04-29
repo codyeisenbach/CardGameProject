@@ -20,6 +20,8 @@ public class Card : MonoBehaviour
 
     void Start()
     {
+
+       
         gameObject.AddComponent<Image>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
