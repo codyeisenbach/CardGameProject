@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 8235015}
   - component: {fileID: 8235014}
   m_Layer: 0
-  m_Name: Deck
+  m_Name: DeckController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,6 +259,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d543c9468f2d40dea69763945487c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardDeck: {fileID: 1762163966}
+  discardPile: {fileID: 811252224}
+  card: {fileID: 619961654689594148, guid: 40063e26f8e2a439682b433adc277117, type: 3}
+  playerArea: {fileID: 1208451568}
+  dropZone: {fileID: 276783106}
 --- !u!4 &8235015
 Transform:
   m_ObjectHideFlags: 0
@@ -807,14 +812,14 @@ PrefabInstance:
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8235014}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShuffleDeck
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Deck, Assembly-CSharp
+      value: DeckController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577386, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_Name
