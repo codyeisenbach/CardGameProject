@@ -7,26 +7,29 @@ using UnityEngine.UI;
 
 public class DrawCards : MonoBehaviour
 {
-    public Deck Deck;
-    public GameObject Card;
-    public GameObject CardDeck;
-    public GameObject DiscardPile;
-    public GameObject PlayerArea;
-    public GameObject EnemyArea;
+    //public Deck Deck;
+    public GameObject card;
+    public GameObject cardDeck;
+    public GameObject discardPile;
+    public GameObject playerArea;
+    public GameObject dropZone;
+    public GameObject enemyArea;
 
+    private int playedCount;
+    private GameObject playerCard;
     private int handSize = 5;
 
 
     public void OnClick()
     {
-        GameObject playerArea = GameObject.Find("PlayerArea");
-        GameObject dropZone = GameObject.Find("DropZone");
-
+        playedCount = playedCount + handSize;
         int playerAreaCount = playerArea.transform.childCount;
         Debug.Log(playerAreaCount);
         int dropZoneCount = dropZone.transform.childCount;
 
         int childCount = playerAreaCount + dropZoneCount;
+
+        int cardsLeft = 52 - playedCount;
 
         if (childCount >= 1)
         {
@@ -43,22 +46,25 @@ public class DrawCards : MonoBehaviour
         // Show the players hand
         for (int i = 0; i < handSize; i++)
         {
-            string playerCardName = "playerCard" + 1;
 
-            GameObject DeckCard = CardDeck.transform.GetChild(UnityEngine.Random.Range(0, childCount)).gameObject;
-
-
-            GameObject discardPile = GameObject.Find("DiscardPile");
+            GameObject newCard = cardDeck.transform.GetChild(UnityEngine.Random.Range(0, cardsLeft)).gameObject;
 
             // Set playerCard to playerArea
-            GameObject playerCard = Instantiate(DeckCard, new Vector2(0, 0), Quaternion.identity);
+            playerCard = Instantiate(newCard, new Vector2(0, 0), Quaternion.identity);
 
-            playerCard.transform.SetParent(PlayerArea.transform, false);
+            playerCard.transform.position = new Vector2(0, 0);
+            playerCard.transform.rotation = Quaternion.identity;
+            playerCard.transform.SetParent(playerArea.transform, false);
+
+            Sprite playerSprite = playerCard.GetComponent<SpriteRenderer>().sprite;
+
+            playerCard.GetComponent<Image>().sprite = playerSprite;
+
 
             // Place last hand in discard pile
-            DeckCard.transform.SetParent(CardDeck.transform);
+            newCard.transform.SetParent(cardDeck.transform);
 
-            DeckCard.transform.SetParent(discardPile.transform);
+            newCard.transform.SetParent(discardPile.transform);
 
         }
     }

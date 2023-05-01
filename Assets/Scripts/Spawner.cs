@@ -9,13 +9,12 @@ public class Spawner : MonoBehaviour
 {
 
 
-    private Transform entityTranform;
+    private Transform cardTransform;
     private Transform parentTransform;
-    private string[] rankKeys = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
-    private string cardName;
 
+    public GameObject cardDeck;
     public GameObject entityToSpawn;
-    public ScriptableCard spawnManagerValues;
+    public SpritesData spritesData;
     public enum CardSuits
     {
         Hearts,
@@ -72,52 +71,36 @@ public class Spawner : MonoBehaviour
 
 void Start()
     {
-    Debug.Log($"spawnManagerValues: {spawnManagerValues.parentObject}");
         SpawnEntities();
     }
 
     void SpawnEntities()
     {
-        int currentSpawnPointIndex = 0;
 
-        GameObject parentEntity = Instantiate(spawnManagerValues.parentObject, spawnManagerValues.spawnPoints[currentSpawnPointIndex], Quaternion.identity);
+        //GameObject parentEntity = Instantiate(spawnManagerValues.parentObject, spawnManagerValues.spawnPoints[currentSpawnPointIndex], Quaternion.identity);
 
-        int suitNumber = CardSuits.GetNames(typeof(CardSuits)).Length;
 
-        int rankNumber = CardRanks.Length;
 
-        for (int i = 0; i < suitNumber; i++)
-        {
-            for (int j = 0; j < rankNumber; j++)
+            foreach (Sprite sprite in spritesData.sprites)
             {
-                cardName = "";
-                cardName += "card" + ((CardSuits)i).ToString() + rankKeys[j];
-
-                string cardSuit = CardSuits.GetNames(typeof(CardSuits))[i];
-
-                int cardRank = CardRanks[j];
 
                 // Creates an instance of the prefab at the current spawn point.
-                GameObject currentEntity = Instantiate(entityToSpawn, spawnManagerValues.spawnPoints[currentSpawnPointIndex], Quaternion.identity);
+                GameObject currentCard = Instantiate(entityToSpawn);
 
-                entityTranform = currentEntity.transform;
+            cardTransform = currentCard.transform;
 
-                parentTransform = parentEntity.transform;
+            parentTransform = cardDeck.transform;
 
-                entityTranform.SetParent(parentTransform, false);
+            cardTransform.SetParent(parentTransform, false);
 
+            Debug.Log($"sprite: {sprite}");
 
-                //cardObject.AddComponent<SpriteRenderer>();
-                //        cardObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+            //cardObject.AddComponent<SpriteRenderer>();
+            currentCard.GetComponent<SpriteRenderer>().sprite = sprite;
 
+            currentCard.name = sprite.name;
 
-
-                // Sets the name of the instantiated entity to be the string defined in the ScriptableObject and then appends it with a unique number. 
-                currentEntity.name = cardName;
-
-                // Moves to the next spawn point index. If it goes out of range, it wraps back to the start.
-                currentSpawnPointIndex = (currentSpawnPointIndex + 1) % spawnManagerValues.spawnPoints.Length;
              }
-        }
+        
     }
 }

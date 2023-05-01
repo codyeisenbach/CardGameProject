@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dcf0b07f5924d659d099e2fee86f91, type: 3}
   m_Name: Data
   m_EditorClassIdentifier: 
-  prefabName: newCard
+  prefabName: 
   parentObject: {fileID: 4940886832886002745, guid: ab442e133e03d4179818208348d4b168, type: 3}
-  numberOfPrefabsToCreate: 3
   spawnPoints:
   - {x: 0, y: 0, z: 0}

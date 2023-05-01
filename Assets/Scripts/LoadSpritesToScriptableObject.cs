@@ -39,6 +39,7 @@ public class LoadSpritesToScriptableObject : MonoBehaviour
     private void Start()
     {
         GetSpriteAddresses();
+
         if (spritesData == null || spriteAddresses.Count == 0)
         {
             Debug.LogError("SpritesData or SpriteAddresses are not assigned");
@@ -96,11 +97,6 @@ public class LoadSpritesToScriptableObject : MonoBehaviour
                 address = $"Assets/Sprites/{cardName}.png";
 
                 spriteAddresses.Add(address);
-                foreach (string str in spriteAddresses)
-                {
-                Debug.Log($"spriteAddresses {str}");
-            
-                }
 
             }
         }

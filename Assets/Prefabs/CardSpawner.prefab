@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6250036089442119915}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 80.58713, y: 95.79739, z: -26.131554}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6250036089442119925
 MonoBehaviour:
@@ -44,5 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518553c9329224b4f9122cf67fe3bca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityToSpawn: {fileID: 619961654689594148, guid: 40063e26f8e2a439682b433adc277117, type: 3}
-  spawnManagerValues: {fileID: 11400000, guid: e91f85274c9184420997d71fd2caccde, type: 2}
+  entityToSpawn: {fileID: 0}
+  spawnManagerValues: {fileID: 0}
+  spritesData: {fileID: 0}
+  CardRanks: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
