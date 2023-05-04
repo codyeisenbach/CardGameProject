@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4940886832886002747}
-  - component: {fileID: 4940886832886002746}
   - component: {fileID: 612007118540873053}
   m_Layer: 0
   m_Name: CardDeck
@@ -33,24 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4940886832886002746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4940886832886002745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d543c9468f2d40dea69763945487c7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CardRanks: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
-  CardDeck: {fileID: 4940886832886002745}
-  DiscardPile: {fileID: 0}
-  Card: {fileID: 0}
-  newDeck: []
-  discardPile: []
 --- !u!114 &612007118540873053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,9 +44,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4336903eb948f47e1835ec0f37543db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Deck: {fileID: 0}
-  Card: {fileID: 0}
-  CardDeck: {fileID: 4940886832886002745}
-  DiscardPile: {fileID: 0}
-  PlayerArea: {fileID: 0}
-  EnemyArea: {fileID: 0}

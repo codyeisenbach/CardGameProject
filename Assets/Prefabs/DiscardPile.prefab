@@ -52,9 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 3
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7792961472158511678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -197,9 +196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 11
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4232629474557054381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -342,9 +340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 12
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4213829279318918062
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -487,9 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 10
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7215094764250705033
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -632,9 +628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 10
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &8031767770071116945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -777,9 +772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 3
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4614611463197035165
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -922,9 +916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 11
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7879954725094338505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1067,9 +1060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 8
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &1452014590151314870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1212,9 +1204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 7
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4492909306063923229
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1357,9 +1348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 5
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5730403987764638498
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1502,9 +1492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 1
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4957699713117411957
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1647,9 +1636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 11
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4243068611623474766
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1792,9 +1780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 13
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7503097909564469277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1937,9 +1924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 13
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5387624289111746082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2082,9 +2068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 12
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &2522868001299134091
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2227,9 +2212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 3
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &75230671508293096
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2372,9 +2356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 7
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &2727268932287262109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2517,9 +2500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 9
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &787446629827795190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2662,9 +2644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 1
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &1380169949966709519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2807,9 +2788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 12
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &9083322351912498399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2952,9 +2932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 6
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &3512671442193185944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3097,9 +3076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 1
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &8977103906696832336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3242,9 +3220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 2
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5715621148438450464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3387,9 +3364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 5
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7309373907032793459
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3532,9 +3508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 9
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5544746667456175517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3677,9 +3652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 2
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &1322634832087545354
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3822,9 +3796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 9
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7397063899964640958
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3967,9 +3940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 2
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &1405111443716165810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4112,9 +4084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 13
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &868108067265276473
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4257,9 +4228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 12
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &1385987272842862356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4402,9 +4372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 8
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4782915173717455160
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4547,9 +4516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 5
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &4256081153434135449
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4692,9 +4660,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 9
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &243615286138187159
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4837,9 +4804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 11
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &2818182330118273442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4982,9 +4948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 13
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &204864618281850293
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5127,9 +5092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 4
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &2477238428727462806
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5272,9 +5236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 8
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5580156763267551472
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5417,9 +5380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 4
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7359658516279334629
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5562,9 +5524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 1
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7294731848644708131
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5707,9 +5668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 4
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5715738432798687643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5809,7 +5769,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7480956795407010315}
-  - component: {fileID: 7480956795407010314}
   - component: {fileID: 3116057524163781485}
   m_Layer: 0
   m_Name: DiscardPile
@@ -5885,75 +5844,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7480956795407010314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7480956795407010313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d543c9468f2d40dea69763945487c7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CardRanks: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
-  CardDeck: {fileID: 0}
-  DiscardPile: {fileID: 7480956795407010313}
-  newDeck:
-  - {fileID: 4479196329705293886}
-  - {fileID: 7563101420499386029}
-  - {fileID: 1077605755466618975}
-  - {fileID: 7893669673162086914}
-  - {fileID: 7618608051642043493}
-  - {fileID: 4043518543911636591}
-  - {fileID: 7915882622277092145}
-  - {fileID: 6495344522988886855}
-  - {fileID: 3872135389989801027}
-  - {fileID: 8912833696628895377}
-  - {fileID: 2518776215944924035}
-  - {fileID: 5610312118167665063}
-  - {fileID: 2979164626924510618}
-  - {fileID: 7372777650561359974}
-  - {fileID: 5233102325661668655}
-  - {fileID: 54900074209958897}
-  - {fileID: 6494367808111840235}
-  - {fileID: 4719905642538776637}
-  - {fileID: 8487403971907340065}
-  - {fileID: 3841091478572954471}
-  - {fileID: 1340583820838836828}
-  - {fileID: 5177082452155656455}
-  - {fileID: 7591096212656192339}
-  - {fileID: 82865948698986403}
-  - {fileID: 118710850513682768}
-  - {fileID: 2637746582034751843}
-  - {fileID: 2498486886093599208}
-  - {fileID: 5344530988275630610}
-  - {fileID: 3595032061787114393}
-  - {fileID: 7445549039639741755}
-  - {fileID: 2370024502872497146}
-  - {fileID: 8199706714667672188}
-  - {fileID: 2146825597159892630}
-  - {fileID: 9103453601285566866}
-  - {fileID: 6087975058929126620}
-  - {fileID: 564447478601595814}
-  - {fileID: 6290986587438068845}
-  - {fileID: 3234554398742115428}
-  - {fileID: 5413219018897510231}
-  - {fileID: 3872784467700763542}
-  - {fileID: 4527495984023902572}
-  - {fileID: 8090026632899109268}
-  - {fileID: 6993026212558979455}
-  - {fileID: 5947655028423687827}
-  - {fileID: 9149812504836140450}
-  - {fileID: 8960549637012062978}
-  - {fileID: 5704727532884644935}
-  - {fileID: 5287997636964425355}
-  - {fileID: 959322747072884847}
-  - {fileID: 1327752209840386196}
-  - {fileID: 3915155517513398114}
-  - {fileID: 6448962713169407067}
-  discardPile: []
 --- !u!114 &3116057524163781485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5966,13 +5856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4336903eb948f47e1835ec0f37543db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Deck: {fileID: 0}
-  Card: {fileID: 0}
-  CardDeck: {fileID: 0}
-  DiscardPile: {fileID: 7480956795407010313}
-  PlayerArea: {fileID: 0}
-  EnemyArea: {fileID: 0}
-  discardPile: {fileID: 7480956795407010313}
 --- !u!1 &7563101420499386029
 GameObject:
   m_ObjectHideFlags: 0
@@ -6025,9 +5908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 2
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5945295840140704191
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6170,9 +6052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 10
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &398962821805053434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6315,9 +6196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 5
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5875441549919649314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6460,9 +6340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 4
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &3400571773363569246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6605,9 +6484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 7
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &8896498246802317251
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6750,9 +6628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 3
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &6309563213941461762
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6895,9 +6772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 6
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &5121625121763161544
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7040,9 +6916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Diamonds
-  rank: 6
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7106035381018929506
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7185,9 +7060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Hearts
-  rank: 10
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &3731486611825882432
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7330,9 +7204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 7
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &7047561084656633577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7475,9 +7348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Clubs
-  rank: 8
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &936205097755534895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7620,9 +7492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59458b3ce47643c0bc8b727f103c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: Spades
-  rank: 6
-  isFaceUp: 1
+  cardData: {fileID: 0}
+  cDataImage: {fileID: 0}
 --- !u!212 &8784953480879769000
 SpriteRenderer:
   m_ObjectHideFlags: 0
