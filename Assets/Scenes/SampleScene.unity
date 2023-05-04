@@ -671,6 +671,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7342854673049250606, guid: a4172d1846837437282eee1d38de1ea6, type: 3}
   m_PrefabInstance: {fileID: 137097756}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1267836121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7043928537111947090, guid: 1fda4cdaeee9847999f2444f9065f4c4, type: 3}
+  m_PrefabInstance: {fileID: 1864142389226713087}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617d3ec6fd284f479d3a81dfcf94165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1508457427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -960,6 +971,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7480956795407010313, guid: 06ad7503a9c24432d900f990269a41d7, type: 3}
     - target: {fileID: 1593627508, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
+      propertyPath: cardManager
+      value: 
+      objectReference: {fileID: 1267836121}
+    - target: {fileID: 1593627508, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: discardPile
       value: 
       objectReference: {fileID: 811252224}
@@ -976,12 +991,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1267836121}
+    - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 11500000, guid: 1d543c9468f2d40dea69763945487c7c, type: 3}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadDeck
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -1079,6 +1106,7 @@ PrefabInstance:
     - {fileID: 1581424622847857021, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
     - {fileID: 6840128219475344971, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
     - {fileID: 1593627512, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
+    - {fileID: 1593627508, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

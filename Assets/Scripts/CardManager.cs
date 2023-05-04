@@ -19,7 +19,7 @@ using System;
         private void Awake()
         {
             cards = new Card[1]; // Draw 2 cards
-            LoadDeck();
+            //LoadDeck();
         }
 
         public void LoadDeck()
@@ -39,15 +39,16 @@ using System;
             StartCoroutine(AddCardToDeck(.1f));
             for (int i = 0; i < cards.Length; i++)
             {
-
                 StartCoroutine(AddCardToDeck(.8f + i));
             }
         }
 
         //adds a new card to the deck on the left, ready to be used
-        private IEnumerator AddCardToDeck(float delay = 0f) //TODO: pass in the CardData dynamically
+        private IEnumerator AddCardToDeck(float delay = 0.2f) //TODO: pass in the CardData dynamically
         {
-            yield return new WaitForSeconds(delay);
+
+        // Staggers card creation
+        yield return new WaitForSeconds(delay);
         cardDeckTransform = cardDeck.transform;
 
         //create new card

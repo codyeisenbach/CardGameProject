@@ -30,12 +30,22 @@ public class DeckData : ScriptableObject
 
     public void ShuffleCards()
     {
+        for (int i = 0; i < cards.Length; i++)
+        {
+            int randomIndex = UnityEngine.Random.Range(i, cards.Length);
+            CardData temp = cards[randomIndex];
+            cards[randomIndex] = cards[i];
+            cards[i] = temp;
+        }
+
         //TODO: shuffle cards
     }
 
     //returns the next card in the deck. You probably want to shuffle cards first
     public CardData GetNextCardFromDeck()
     {
+        ShuffleCards();
+
         //advance the index
         currentCard++;
         if (currentCard >= cards.Length)

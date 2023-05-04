@@ -282,9 +282,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4336903eb948f47e1835ec0f37543db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Card: {fileID: 619961654689594148, guid: 40063e26f8e2a439682b433adc277117, type: 3}
-  CardDeck: {fileID: 4940886832886002745, guid: ab442e133e03d4179818208348d4b168, type: 3}
-  DiscardPile: {fileID: 7480956795407010313, guid: 06ad7503a9c24432d900f990269a41d7, type: 3}
-  PlayerArea: {fileID: 7342854673049250606, guid: a4172d1846837437282eee1d38de1ea6, type: 3}
-  DropZone: {fileID: 8437176724084793117, guid: 67f83e068a4b74ae58d2f1f87ddbed97, type: 3}
-  EnemyArea: {fileID: 6644521291377427141, guid: 67b699d92855e474195fdf94404168fd, type: 3}
