@@ -11,12 +11,12 @@ public class PlayerManager : MonoBehaviour
     public DeckData playersDeck;
     public GameObject playerScore;
     public GameObject playerArea;
+    public int losingValue = 21;
 
     private int scoreValue;
-
     private string score;
 
-    private void GetPlayerScore()
+    private int GetPlayerScore()
     {
         scoreValue = 0;
         for (int i = 0; i < playerArea.transform.childCount; i++)
@@ -26,19 +26,29 @@ public class PlayerManager : MonoBehaviour
         }
 
         score = scoreValue.ToString();
-    }
 
-    private void Update()
-    {
-        //GetPlayerScore();
-        //ShowScore();
+        return scoreValue;
     }
-
 
     public void ShowScore()
     {
         GetPlayerScore();
 
         playerScore.GetComponent<Text>().text = "Player Score: " + score;
+    }
+
+    public void ShowLosingText()
+    {
+        GetPlayerScore();
+
+        playerScore.GetComponent<Text>().text = "Player Score: " + score + "  Bust!";
+    }
+
+    public void CheckForLoss()
+    {
+        if (GetPlayerScore() > losingValue)
+        {
+            ShowLosingText();
+        }
     }
 }

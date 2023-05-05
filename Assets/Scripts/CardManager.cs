@@ -77,6 +77,7 @@ public class CardManager : MonoBehaviour
         {
         PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
         playerComponent.ShowScore();
+        playerComponent.CheckForLoss();
     }
 
         public void EmptyPlayerHand()
