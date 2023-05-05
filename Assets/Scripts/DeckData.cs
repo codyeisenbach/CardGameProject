@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
@@ -12,7 +14,9 @@ public class DeckData : ScriptableObject
 {
     public AssetLabelReference[] labelsToInclude;
 
-    private CardData[] cards; //the deck of actual cards, needs to be shuffled
+    private List<CardData> cards; //the deck of actual cards, needs to be shuffled
+    private List<CardData> discardedCards;
+    private CardData cardStore;
     private int currentCard = 0;
 
     public void CardsRetrieved(List<CardData> cardDataDownloaded)
@@ -20,40 +24,39 @@ public class DeckData : ScriptableObject
         //load the actual cards data into an array, ready to use
         int totalCards = cardDataDownloaded.Count;
 
-        Debug.Log("cardDataDownloaded: " + cardDataDownloaded);
-        cards = new CardData[totalCards];
+        cards = new List<CardData>();
         for (int c = 0; c < totalCards; c++)
         {
-            cards[c] = cardDataDownloaded[c];
+            cards.Add(cardDataDownloaded[c]);
         }
     }
 
     public void ShuffleCards()
     {
-        for (int i = 0; i < cards.Length; i++)
+        for (int i = 0; i < cards.Count; i++)
         {
-            int randomIndex = UnityEngine.Random.Range(i, cards.Length);
+            int randomIndex = UnityEngine.Random.Range(i, cards.Count);
             CardData temp = cards[randomIndex];
             cards[randomIndex] = cards[i];
             cards[i] = temp;
         }
-
-        //TODO: shuffle cards
     }
 
-    //returns the next card in the deck. You probably want to shuffle cards first
+    //returns the next card in the deck.
     public CardData GetNextCardFromDeck()
     {
-        ShuffleCards();
 
+        ShuffleCards();
         //advance the index
         currentCard++;
-        if (currentCard >= cards.Length)
+        if (currentCard >= cards.Count)
             currentCard = 0;
 
-        Debug.Log("cards[currentCard]: " + cards[currentCard]);
+        cardStore = cards[currentCard];
+        discardedCards.Add(cardStore);
+        cards.Remove(cardStore);
 
-        return cards[currentCard];
+        return cardStore;
     }
 }
 

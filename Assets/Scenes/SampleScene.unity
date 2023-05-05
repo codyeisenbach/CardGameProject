@@ -987,13 +987,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1267836121}
+      objectReference: {fileID: 11400000, guid: f556f1b83604f49539d10dbf11e8c145, type: 2}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1004,11 +1008,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadDeck
+      value: GetNextPlayerHand
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CardManager, Assembly-CSharp
+      value: DeckData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6885409195847577385, guid: 81597d9e60a3e45378f8ad54330f7573, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName

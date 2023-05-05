@@ -19,8 +19,8 @@ using System;
         private void Awake()
         {
             cards = new Card[1]; // Draw 2 cards
-            //LoadDeck();
-        }
+            LoadDeck();
+    }
 
         public void LoadDeck()
         {
@@ -34,7 +34,6 @@ using System;
         private void DeckLoaded()
         {
             Debug.Log("Player's deck loaded");
-
             //setup initial cards
             StartCoroutine(AddCardToDeck(.1f));
             for (int i = 0; i < cards.Length; i++)
@@ -43,7 +42,7 @@ using System;
             }
         }
 
-        //adds a new card to the deck on the left, ready to be used
+        //adds a new card to the deck
         private IEnumerator AddCardToDeck(float delay = 0.2f) //TODO: pass in the CardData dynamically
         {
 
@@ -58,6 +57,5 @@ using System;
             //populate CardData on the Card script
             Card cardScript = activeCard.GetComponent<Card>();
             cardScript.InitialiseWithData(playersDeck.GetNextCardFromDeck());
-            Debug.Log("cardScript: " + cardScript);
         }
     }
