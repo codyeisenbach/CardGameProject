@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardImage: {fileID: 21300000, guid: 16e4d19c27b75473687f82e1d3d79fcb, type: 3}
   cardName: cardClubsA
+  cardValue: 1

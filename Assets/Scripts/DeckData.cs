@@ -72,14 +72,9 @@ public class DeckData : ScriptableObject
 
     public void RefillDeck()
     {
-        // Add back discarded cards when emptied
         cards.AddRange(discardedCards);
-        EmptyDiscarded();
-        ShuffleCards();
-    }
-    public void EmptyDiscarded()
-    {
         discardedCards.RemoveRange(0, discardedCards.Count);
+        ShuffleCards();
     }
 }
 

@@ -10,13 +10,17 @@ using UnityEngine.UI;
     {
         [HideInInspector] public CardData cardData;
 
-        public Image cDataImage;
+        public Image cardDataImage;
+        public string cardDataName;
+        public int cardDataValue;
 
-        //called by CardManager, it feeds CardData so this card can display an image.
-        public void InitialiseWithData(CardData cData)
+    //called by CardManager, it feeds CardData so this card can display an image.
+    public void InitialiseWithData(CardData cData)
         {
-            cardData = cData;
-            cDataImage.sprite = cardData.cardImage;
+        cardData = cData;
+        cardDataImage.sprite = cardData.cardImage;
+        cardDataName = cardData.cardName;
+        cardDataValue = cardData.cardValue;
         }
 
     }

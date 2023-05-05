@@ -8,7 +8,7 @@ using Unity.VisualScripting;
 public class CardManager : MonoBehaviour
     {
         public DeckData playersDeck;
-        public GameObject playerScore;
+        public GameObject playerManager;
         public GameObject cardPrefab;
         public GameObject activeCard;
         public GameObject playerArea;
@@ -27,8 +27,9 @@ public class CardManager : MonoBehaviour
             DeckLoader newDeckLoaderComp = gameObject.AddComponent<DeckLoader>();
             newDeckLoaderComp.OnDeckLoaded += DeckLoaded;
             newDeckLoaderComp.LoadDeck(playersDeck);
-            playersDeck.EmptyDiscarded();
-        }
+            playersDeck.RefillDeck();
+
+    }
 
     private void DeckLoaded()
         {
@@ -41,27 +42,28 @@ public class CardManager : MonoBehaviour
             }
         }
 
-    //adds a new card to the deck
+        //adds a new card to the deck
         private IEnumerator AddCardToDeck(float delay = 0.2f) //TODO: pass in the CardData dynamically
         {
+            // Staggers card creation
+            yield return new WaitForSeconds(delay);
 
-        // Staggers card creation
-        yield return new WaitForSeconds(delay);
+            playerAreaTransform = playerArea.transform;
 
-        playerAreaTransform = playerArea.transform;
-
-        //create new card
-        activeCard = Instantiate<GameObject>(cardPrefab, playerAreaTransform);
+            //create new card
+            activeCard = Instantiate<GameObject>(cardPrefab, playerAreaTransform);
 
 
             //populate CardData on the Card script
             Card cardScript = activeCard.GetComponent<Card>();
             cardScript.InitialiseWithData(playersDeck.GetNextCardFromDeck());
+
+            GetScore();
         }
 
         public void DrawCard()
         {
-
+        //GetScore();
         if (playerArea.transform.childCount >= 52)
             {
             EmptyPlayerHand();
@@ -70,6 +72,12 @@ public class CardManager : MonoBehaviour
 
             StartCoroutine(AddCardToDeck(.1f));
         }
+
+        public void GetScore()
+        {
+        PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
+        playerComponent.ShowScore();
+    }
 
         public void EmptyPlayerHand()
         {

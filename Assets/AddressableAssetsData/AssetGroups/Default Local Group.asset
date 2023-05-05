@@ -20,363 +20,437 @@ MonoBehaviour:
   - m_GUID: 47f70d77e50c74bffbaae8d6b781939c
     m_Address: Assets/Sprites/cardBack_blue2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 497935b3b8a5749ccaa23de1e1857be6
     m_Address: Assets/Sprites/cardBack_blue1.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 391a2f45d8806495fbdbf68cc373268d
     m_Address: Assets/Sprites/cardBack_blue3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 576ee79b954c948db9982f05fc4f146a
     m_Address: Assets/Sprites/cardBack_blue4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bf5528c1af08e4eb9b381af98714add3
     m_Address: Assets/Sprites/cardBack_blue5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4149005f461dc481d9444ac8c9b178b2
     m_Address: Assets/Sprites/cardBack_green1.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fb22a11a819af4d5d9ebc917c3bec0ae
     m_Address: Assets/Sprites/cardBack_green2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cff3ef9e8a65d4757b8b78b549895130
     m_Address: Assets/Sprites/cardBack_green3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4e1cc7bbd68ea4ae983fadced24ea3e8
     m_Address: Assets/Sprites/cardBack_green4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbc0fb4fb0bce4023b9ffc6e79f74c29
     m_Address: Assets/Sprites/cardBack_green5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa7895ad1cd0547dfafaf65f97e9c314
     m_Address: Assets/Sprites/cardBack_red1.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba074bbc5b8254f3b930003c6fc5b42a
     m_Address: Assets/Sprites/cardBack_red2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d13543341819c4374a46dce7b7d87333
     m_Address: Assets/Sprites/cardBack_red3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fea454b7789674d2c8d6fccc086c760e
     m_Address: Assets/Sprites/cardBack_red4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0be5322af43804c8ea772ff18a5faaf8
     m_Address: Assets/Sprites/cardBack_red5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2f31b03b6d0fe45c282296b9ca0591ca
     m_Address: Assets/Sprites/cardClubs2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b6417f8ca7eb462d81ac7f666a937c5
     m_Address: Assets/Sprites/cardClubs3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a2267ff43443b43dda1ab7d3c37f2a36
     m_Address: Assets/Sprites/cardClubs4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2e048323a1314436da365c0967639a50
     m_Address: Assets/Sprites/cardClubs5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6561951393e6c42cbb0271d040c11995
     m_Address: Assets/Sprites/cardClubs6.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2609e3969ce4144148134ee64ff8d4c5
     m_Address: Assets/Sprites/cardClubs7.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cda7c336c4a44475ebd4e9f4fe936c27
     m_Address: Assets/Sprites/cardClubs8.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 21f2529fb62814617973a0338c400c59
     m_Address: Assets/Sprites/cardClubs9.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9cdb26a01c3024859867e8adcf649647
     m_Address: Assets/Sprites/cardClubs10.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 16e4d19c27b75473687f82e1d3d79fcb
     m_Address: Assets/Sprites/cardClubsA.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a0db8d5b9a60c4a479c7f38043544a03
     m_Address: Assets/Sprites/cardClubsJ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bcefa182fb05e4a809b1499283430217
     m_Address: Assets/Sprites/cardClubsK.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 119e48888a64b4d9bbf73ccb74920d77
     m_Address: Assets/Sprites/cardClubsQ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d515e5c93a04645a1bd072f85086f747
     m_Address: Assets/Sprites/cardDiamonds2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f307286340f848929b6bf9440723c75
     m_Address: Assets/Sprites/cardDiamonds3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1964c9ec7006642b6839829e4f57d965
     m_Address: Assets/Sprites/cardDiamonds4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 14a8abc4395e645e598934dfac16a3bd
     m_Address: Assets/Sprites/cardDiamonds5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: abbf67b8946c9499aa424b59c09a01e1
     m_Address: Assets/Sprites/cardDiamonds6.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b460f5112ec648d39af5fb02c2f0572
     m_Address: Assets/Sprites/cardDiamonds7.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f3f58812145f6473dbd88455f6fd052c
     m_Address: Assets/Sprites/cardDiamonds8.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ca77d56015b8478d8cdf22fad93907a
     m_Address: Assets/Sprites/cardDiamonds9.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ef03159a5d9674bc69da8f0af382db71
     m_Address: Assets/Sprites/cardDiamonds10.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dcd0d8c65da6746489b0226222f8645b
     m_Address: Assets/Sprites/cardDiamondsA.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e18c5dfeb8ea64c0f88b63b7fc8fe0d7
     m_Address: Assets/Sprites/cardDiamondsJ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3f5f3b8db26449ccbdbcf59e3958e32
     m_Address: Assets/Sprites/cardDiamondsK.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4269c39a87e7448f49fc3ee3c9cb80ec
     m_Address: Assets/Sprites/cardDiamondsQ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4269c1fd9eb3b4e77a2c9fb601364a39
     m_Address: Assets/Sprites/cardHearts2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a3e22429d86645c188a5b32d0eac5d8
     m_Address: Assets/Sprites/cardHearts3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a551a1aaf06e4221bc6a570474ba87b
     m_Address: Assets/Sprites/cardHearts4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1a184a22c0579400e9e738e25e019991
     m_Address: Assets/Sprites/cardHearts5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 11edba8965d5c43b4874d7607f5db3d5
     m_Address: Assets/Sprites/cardHearts6.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8084c309b35e445dba412e3e209bf6d7
     m_Address: Assets/Sprites/cardHearts7.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aefabc2feaa644b59bd9fdb670d75a4f
     m_Address: Assets/Sprites/cardHearts8.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d40286e0f6bad4a328a1ea7418c39863
     m_Address: Assets/Sprites/cardHearts9.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 490c4c537f1d94703b44b7579ecbab7c
     m_Address: Assets/Sprites/cardHearts10.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aec6b10b653eb4c319f93434b625d107
     m_Address: Assets/Sprites/cardHeartsA.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 881fe3dea294449d0834c4a189d59f31
     m_Address: Assets/Sprites/cardHeartsJ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a13a12ac4bf948699f55de0e91f674e
     m_Address: Assets/Sprites/cardHeartsK.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a1470f3c20a77485c9d8dcc3a813ccc0
     m_Address: Assets/Sprites/cardHeartsQ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 057194200e35040d8bfc5159b3632fc8
     m_Address: Assets/Sprites/cardJoker.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e3232918189d34c7397d7a70ed409da0
     m_Address: Assets/Sprites/cardSpades2.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 70a99f8624e404e0fadf019ccd3b3808
     m_Address: Assets/Sprites/cardSpades3.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 13b3c8f540a7c4122a8c541bd0f67282
     m_Address: Assets/Sprites/cardSpades4.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e9a0c3b194d4f4ad0a4d71e895c145fa
     m_Address: Assets/Sprites/cardSpades5.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8edf8bb0e6b1402c862d91a9ae9a314
     m_Address: Assets/Sprites/cardSpades6.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d14d7d8921a354d7ab2de88ff39cc9fa
     m_Address: Assets/Sprites/cardSpades7.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0f50bdfc1ade2415384e595411d65a08
     m_Address: Assets/Sprites/cardSpades8.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c02f259dfa28e45c4afebfce821bcd6d
     m_Address: Assets/Sprites/cardSpades9.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 07e6a113a51d840178d591e274b99a28
     m_Address: Assets/Sprites/cardSpades10.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aac8d88ee2bb34f21ac46730e7772bf7
     m_Address: Assets/Sprites/cardSpadesA.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4bbb1104c854043b49fc07cdf05c24f3
     m_Address: Assets/Sprites/cardSpadesJ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3c3f898b65e9146a8ab2f8cf9060c8fd
     m_Address: Assets/Sprites/cardSpadesK.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3368b78c21ad84fccb6cc18f99b6aab1
     m_Address: Assets/Sprites/cardSpadesQ.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c8201818a28024402bb6b37be651094f
-    m_Address: Assets/GameData/Cards/cardSpadesK.asset
+  - m_GUID: c69a3900804b147c7b7e3b96b2a7cae7
+    m_Address: Assets/GameData/Cards/cardClubs4.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8d2ce2354eab242cb8a60232f46df92b
-    m_Address: Assets/GameData/Cards/cardSpadesQ.asset
+  - m_GUID: 8b362ed898eb54710beaa2fce7adbe05
+    m_Address: Assets/GameData/Cards/cardHearts6.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bbd224bfe1dc04eb9986fd821c1d941f
-    m_Address: Assets/GameData/Cards/cardSpadesJ.asset
+  - m_GUID: 1da9283ed20164411a5130ba3339549b
+    m_Address: Assets/GameData/Cards/cardDiamondsJ.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e05ace060d41443499aa441d18f7892b
-    m_Address: Assets/GameData/Cards/cardSpades10.asset
+  - m_GUID: 2dc10b1a008954f5a83358d748645206
+    m_Address: Assets/GameData/Cards/cardHearts5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c192349f0e7a4b54ba3b7b577008933
+    m_Address: Assets/GameData/Cards/cardClubsA.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
@@ -387,32 +461,50 @@ MonoBehaviour:
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 35b2bb09041e843948a59d5a92730f0a
-    m_Address: Assets/GameData/Cards/cardSpades8.asset
+  - m_GUID: d091aac8dbbf743fcb717f712abf376d
+    m_Address: Assets/GameData/Cards/cardDiamonds3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b85717a82affd48239a53483977eae73
-    m_Address: Assets/GameData/Cards/cardSpades7.asset
+  - m_GUID: 2d674d5bdb1ce4f6f93e01f7bd1f0ee5
+    m_Address: Assets/GameData/Cards/cardHeartsK.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2cca335bc8b244ad0a04c8c83991273a
-    m_Address: Assets/GameData/Cards/cardSpades6.asset
+  - m_GUID: 9ecc710c022424089a043ff201d1a03c
+    m_Address: Assets/GameData/Cards/cardClubs3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 21c234564f9ce40a68902f2f1b10bd8c
-    m_Address: Assets/GameData/Cards/cardSpades5.asset
+  - m_GUID: c8201818a28024402bb6b37be651094f
+    m_Address: Assets/GameData/Cards/cardSpadesK.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 574d454b19f224b6fa76576921a5174d
-    m_Address: Assets/GameData/Cards/cardSpades4.asset
+  - m_GUID: 30ff8fc82f9ab4344ad9add0283e732a
+    m_Address: Assets/GameData/Cards/cardDiamonds9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d237d16d2e9164f159208b481d1e295b
+    m_Address: Assets/GameData/Cards/cardHeartsJ.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfa66cff51d844a06b833d8c642085d9
+    m_Address: Assets/GameData/Cards/cardSpadesA.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08e0d2197c08f44c9a8e69149267ee47
+    m_Address: Assets/GameData/Cards/cardHearts10.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
@@ -423,14 +515,38 @@ MonoBehaviour:
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: de35ad5aa41424f199b2c8a5d6ad6433
-    m_Address: Assets/GameData/Cards/cardSpades2.asset
+  - m_GUID: 21c234564f9ce40a68902f2f1b10bd8c
+    m_Address: Assets/GameData/Cards/cardSpades5.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cfa66cff51d844a06b833d8c642085d9
-    m_Address: Assets/GameData/Cards/cardSpadesA.asset
+  - m_GUID: 0c6f88b9a828246d5bd5d83573e3aa29
+    m_Address: Assets/GameData/Cards/cardDiamonds4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ddc1f7904506457eaaa8d0b069994bf
+    m_Address: Assets/GameData/Cards/cardHeartsA.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f62cf2f177dac492293592d7dcdd25be
+    m_Address: Assets/GameData/Cards/cardDiamonds8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30895f20423114ced89c29f6d7841591
+    m_Address: Assets/GameData/Cards/cardClubs5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e8652fe016d4429a4e0fe30f6f5e82
+    m_Address: Assets/GameData/Cards/cardDiamonds10.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
@@ -447,26 +563,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a49ce758685c74e69bb285f40f0dd451
-    m_Address: Assets/GameData/Cards/cardClubsJ.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 40e2aa6e8cfa2422fa2aad67f1964bb5
-    m_Address: Assets/GameData/Cards/cardClubs10.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c195725ebbcd34795984288f8ab58ef8
-    m_Address: Assets/GameData/Cards/cardClubs9.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1bd1cf73212ea422e9b3c05ac7726d49
-    m_Address: Assets/GameData/Cards/cardClubs8.asset
+  - m_GUID: 32dc3425a1d97405994bcab6afaa738c
+    m_Address: Assets/GameData/Cards/cardDiamonds2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
@@ -477,86 +575,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 24f0caaaa55124a4ba8c3ae63bc8f840
-    m_Address: Assets/GameData/Cards/cardClubs6.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 30895f20423114ced89c29f6d7841591
-    m_Address: Assets/GameData/Cards/cardClubs5.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c69a3900804b147c7b7e3b96b2a7cae7
-    m_Address: Assets/GameData/Cards/cardClubs4.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9ecc710c022424089a043ff201d1a03c
-    m_Address: Assets/GameData/Cards/cardClubs3.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e061b46c4e2da40c4bcd85b937535d6e
-    m_Address: Assets/GameData/Cards/cardClubs2.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1c192349f0e7a4b54ba3b7b577008933
-    m_Address: Assets/GameData/Cards/cardClubsA.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9dacdab322f964686b2be1af250be898
-    m_Address: Assets/GameData/Cards/cardDiamondsK.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7e753a2907bea4215a2b109342f8e896
-    m_Address: Assets/GameData/Cards/cardDiamondsQ.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1da9283ed20164411a5130ba3339549b
-    m_Address: Assets/GameData/Cards/cardDiamondsJ.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 34e8652fe016d4429a4e0fe30f6f5e82
-    m_Address: Assets/GameData/Cards/cardDiamonds10.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 30ff8fc82f9ab4344ad9add0283e732a
-    m_Address: Assets/GameData/Cards/cardDiamonds9.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f62cf2f177dac492293592d7dcdd25be
-    m_Address: Assets/GameData/Cards/cardDiamonds8.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7a8baad1cc7a148fb89379efed08f555
-    m_Address: Assets/GameData/Cards/cardDiamonds7.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 007712ff1a2cb43e79a044f008a303ed
-    m_Address: Assets/GameData/Cards/cardDiamonds6.asset
+  - m_GUID: 0336c3338363f434b96993cf1d1a7fbd
+    m_Address: Assets/GameData/Cards/cardHearts8.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
@@ -567,92 +587,20 @@ MonoBehaviour:
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0c6f88b9a828246d5bd5d83573e3aa29
-    m_Address: Assets/GameData/Cards/cardDiamonds4.asset
+  - m_GUID: 007712ff1a2cb43e79a044f008a303ed
+    m_Address: Assets/GameData/Cards/cardDiamonds6.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d091aac8dbbf743fcb717f712abf376d
-    m_Address: Assets/GameData/Cards/cardDiamonds3.asset
+  - m_GUID: de35ad5aa41424f199b2c8a5d6ad6433
+    m_Address: Assets/GameData/Cards/cardSpades2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 32dc3425a1d97405994bcab6afaa738c
-    m_Address: Assets/GameData/Cards/cardDiamonds2.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 88dc0daefcd384a30baeb10837c6e177
-    m_Address: Assets/GameData/Cards/cardDiamondsA.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2d674d5bdb1ce4f6f93e01f7bd1f0ee5
-    m_Address: Assets/GameData/Cards/cardHeartsK.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9b535e15374f94fce89b0212a37673a6
-    m_Address: Assets/GameData/Cards/cardHeartsQ.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d237d16d2e9164f159208b481d1e295b
-    m_Address: Assets/GameData/Cards/cardHeartsJ.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 08e0d2197c08f44c9a8e69149267ee47
-    m_Address: Assets/GameData/Cards/cardHearts10.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d5c2b0984d08140c0a3ac21073766a38
-    m_Address: Assets/GameData/Cards/cardHearts9.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0336c3338363f434b96993cf1d1a7fbd
-    m_Address: Assets/GameData/Cards/cardHearts8.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 489e9215a90d3417984d9ec40bc1aa1f
-    m_Address: Assets/GameData/Cards/cardHearts7.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8b362ed898eb54710beaa2fce7adbe05
-    m_Address: Assets/GameData/Cards/cardHearts6.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2dc10b1a008954f5a83358d748645206
-    m_Address: Assets/GameData/Cards/cardHearts5.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0c2a7961e61894f88a7f0ac5173c8c90
-    m_Address: Assets/GameData/Cards/cardHearts4.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - deck1
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1d9b342cc95cd47c49349ab0408b770a
-    m_Address: Assets/GameData/Cards/cardHearts3.asset
+  - m_GUID: 8d2ce2354eab242cb8a60232f46df92b
+    m_Address: Assets/GameData/Cards/cardSpadesQ.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
@@ -663,8 +611,128 @@ MonoBehaviour:
     m_SerializedLabels:
     - deck1
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7ddc1f7904506457eaaa8d0b069994bf
-    m_Address: Assets/GameData/Cards/cardHeartsA.asset
+  - m_GUID: e05ace060d41443499aa441d18f7892b
+    m_Address: Assets/GameData/Cards/cardSpades10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b535e15374f94fce89b0212a37673a6
+    m_Address: Assets/GameData/Cards/cardHeartsQ.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e061b46c4e2da40c4bcd85b937535d6e
+    m_Address: Assets/GameData/Cards/cardClubs2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a49ce758685c74e69bb285f40f0dd451
+    m_Address: Assets/GameData/Cards/cardClubsJ.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24f0caaaa55124a4ba8c3ae63bc8f840
+    m_Address: Assets/GameData/Cards/cardClubs6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbd224bfe1dc04eb9986fd821c1d941f
+    m_Address: Assets/GameData/Cards/cardSpadesJ.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b85717a82affd48239a53483977eae73
+    m_Address: Assets/GameData/Cards/cardSpades7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e753a2907bea4215a2b109342f8e896
+    m_Address: Assets/GameData/Cards/cardDiamondsQ.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 574d454b19f224b6fa76576921a5174d
+    m_Address: Assets/GameData/Cards/cardSpades4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35b2bb09041e843948a59d5a92730f0a
+    m_Address: Assets/GameData/Cards/cardSpades8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5c2b0984d08140c0a3ac21073766a38
+    m_Address: Assets/GameData/Cards/cardHearts9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dacdab322f964686b2be1af250be898
+    m_Address: Assets/GameData/Cards/cardDiamondsK.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cca335bc8b244ad0a04c8c83991273a
+    m_Address: Assets/GameData/Cards/cardSpades6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bd1cf73212ea422e9b3c05ac7726d49
+    m_Address: Assets/GameData/Cards/cardClubs8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a8baad1cc7a148fb89379efed08f555
+    m_Address: Assets/GameData/Cards/cardDiamonds7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c2a7961e61894f88a7f0ac5173c8c90
+    m_Address: Assets/GameData/Cards/cardHearts4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c195725ebbcd34795984288f8ab58ef8
+    m_Address: Assets/GameData/Cards/cardClubs9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 489e9215a90d3417984d9ec40bc1aa1f
+    m_Address: Assets/GameData/Cards/cardHearts7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88dc0daefcd384a30baeb10837c6e177
+    m_Address: Assets/GameData/Cards/cardDiamondsA.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d9b342cc95cd47c49349ab0408b770a
+    m_Address: Assets/GameData/Cards/cardHearts3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - deck1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40e2aa6e8cfa2422fa2aad67f1964bb5
+    m_Address: Assets/GameData/Cards/cardClubs10.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - deck1
