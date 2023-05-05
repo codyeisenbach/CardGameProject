@@ -19,6 +19,11 @@ public class DeckData : ScriptableObject
     private CardData cardStore;
     private int currentCard = 0;
 
+    private void Awake()
+    {
+        discardedCards.RemoveRange(0, discardedCards.Count);
+    }
+
     public void CardsRetrieved(List<CardData> cardDataDownloaded)
     {
         //load the actual cards data into an array, ready to use
@@ -45,18 +50,36 @@ public class DeckData : ScriptableObject
     //returns the next card in the deck.
     public CardData GetNextCardFromDeck()
     {
+        if (currentCard <= 0)
+            ShuffleCards();
 
-        ShuffleCards();
         //advance the index
         currentCard++;
         if (currentCard >= cards.Count)
+        {
             currentCard = 0;
+        }
 
         cardStore = cards[currentCard];
         discardedCards.Add(cardStore);
+        Debug.Log("before " + cards.Count);
         cards.Remove(cardStore);
+        Debug.Log("after " + cards.Count);
+        Debug.Log("discardedCards " + discardedCards.Count);
 
         return cardStore;
+    }
+
+    public void RefillDeck()
+    {
+        // Add back discarded cards when emptied
+        cards.AddRange(discardedCards);
+        EmptyDiscarded();
+        ShuffleCards();
+    }
+    public void EmptyDiscarded()
+    {
+        discardedCards.RemoveRange(0, discardedCards.Count);
     }
 }
 
