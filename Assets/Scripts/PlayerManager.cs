@@ -12,8 +12,8 @@ public class PlayerManager : MonoBehaviour
     public GameObject playerScore;
     public GameObject playerArea;
     public int losingValue = 21;
+    public int scoreValue;
 
-    private int scoreValue;
     private string score;
 
     private int GetPlayerScore()

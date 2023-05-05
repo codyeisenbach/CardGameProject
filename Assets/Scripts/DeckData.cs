@@ -38,6 +38,7 @@ public class DeckData : ScriptableObject
 
     public void ShuffleCards()
     {
+
         for (int i = 0; i < cards.Count; i++)
         {
             int randomIndex = UnityEngine.Random.Range(i, cards.Count);

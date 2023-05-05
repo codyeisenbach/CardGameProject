@@ -12,9 +12,8 @@ public class CardManager : MonoBehaviour
         public GameObject cardPrefab;
         public GameObject activeCard;
         public GameObject playerArea;
-        Transform playerAreaTransform;
-
         Card[] cards;
+
 
         private void Awake()
         {
@@ -33,7 +32,7 @@ public class CardManager : MonoBehaviour
 
     private void DeckLoaded()
         {
-            Debug.Log("Player's deck loaded");
+            Debug.Log("Deck loaded");
             //setup initial cards
             StartCoroutine(AddCardToDeck(.1f));
             for (int i = 0; i < cards.Length; i++)
@@ -48,10 +47,8 @@ public class CardManager : MonoBehaviour
             // Staggers card creation
             yield return new WaitForSeconds(delay);
 
-            playerAreaTransform = playerArea.transform;
-
             //create new card
-            activeCard = Instantiate<GameObject>(cardPrefab, playerAreaTransform);
+            activeCard = Instantiate<GameObject>(cardPrefab, playerArea.transform);
 
 
             //populate CardData on the Card script
@@ -63,22 +60,28 @@ public class CardManager : MonoBehaviour
 
         public void DrawCard()
         {
-        //GetScore();
-        if (playerArea.transform.childCount >= 52)
-            {
-            EmptyPlayerHand();
-            playersDeck.RefillDeck();
+            PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
+        if (playerComponent.scoreValue >= playerComponent.losingValue)
+        {
+            ShuffleDeck();
+            LoadDeck();
+        }
+        else
+            StartCoroutine(AddCardToDeck(.1f));
         }
 
-            StartCoroutine(AddCardToDeck(.1f));
+        public void ShuffleDeck()
+        {
+            playersDeck.RefillDeck();
+            EmptyPlayerHand();
         }
 
         public void GetScore()
         {
-        PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
-        playerComponent.ShowScore();
-        playerComponent.CheckForLoss();
-    }
+            PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
+            playerComponent.ShowScore();
+            playerComponent.CheckForLoss();
+        }
 
         public void EmptyPlayerHand()
         {
@@ -87,4 +90,5 @@ public class CardManager : MonoBehaviour
                 Destroy(playerArea.transform.GetChild(i).gameObject);
             }
         }
-    }
+
+}
