@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 public class CardManager : MonoBehaviour
     {
         public DeckData playersDeck;
+        public GameObject playerScore;
         public GameObject cardPrefab;
         public GameObject activeCard;
         public GameObject playerArea;

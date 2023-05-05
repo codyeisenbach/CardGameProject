@@ -11,4 +11,7 @@ using UnityEngine;
 
         [Header("Card name")]
         public string cardName;
+
+        [Header("Card value")]
+        public int cardValue;
 }
