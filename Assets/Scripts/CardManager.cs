@@ -17,7 +17,7 @@ public class CardManager : MonoBehaviour
 
         private void Awake()
         {
-            cards = new Card[1]; // Draw 2 cards
+            cards = new Card[2]; // Draw 2 cards
             LoadDeck();
         }
 
@@ -34,15 +34,14 @@ public class CardManager : MonoBehaviour
         {
             Debug.Log("Deck loaded");
             //setup initial cards
-            StartCoroutine(AddCardToDeck(.1f));
             for (int i = 0; i < cards.Length; i++)
             {
-                StartCoroutine(AddCardToDeck(.8f + i));
+                StartCoroutine(AddCardToDeck());
             }
         }
 
         //adds a new card to the deck
-        private IEnumerator AddCardToDeck(float delay = 0.2f) //TODO: pass in the CardData dynamically
+        private IEnumerator AddCardToDeck(float delay = 0.01f) //TODO: pass in the CardData dynamically
         {
             // Staggers card creation
             yield return new WaitForSeconds(delay);
@@ -67,7 +66,7 @@ public class CardManager : MonoBehaviour
             LoadDeck();
         }
         else
-            StartCoroutine(AddCardToDeck(.1f));
+            StartCoroutine(AddCardToDeck(.5f));
         }
 
         public void ShuffleDeck()
@@ -81,7 +80,8 @@ public class CardManager : MonoBehaviour
             PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
             playerComponent.ShowScore();
             playerComponent.CheckForLoss();
-        }
+            playerComponent.CheckForWin();
+    }
 
         public void EmptyPlayerHand()
         {

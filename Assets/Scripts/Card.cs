@@ -12,6 +12,7 @@ using UnityEngine.UI;
 
         public Image cardDataImage;
         public string cardDataName;
+        public string cardDataRank;
         public int cardDataValue;
 
     //called by CardManager, it feeds CardData so this card can display an image.
@@ -21,6 +22,7 @@ using UnityEngine.UI;
         cardDataImage.sprite = cardData.cardImage;
         cardDataName = cardData.cardName;
         cardDataValue = cardData.cardValue;
-        }
+        cardDataRank = cardData.cardRank;
+    }
 
     }

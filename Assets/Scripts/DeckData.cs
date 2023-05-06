@@ -54,7 +54,6 @@ public class DeckData : ScriptableObject
         if (currentCard <= 0)
             ShuffleCards();
 
-        //advance the index
         currentCard++;
         if (currentCard >= cards.Count)
         {
@@ -63,10 +62,7 @@ public class DeckData : ScriptableObject
 
         cardStore = cards[currentCard];
         discardedCards.Add(cardStore);
-        Debug.Log("before " + cards.Count);
         cards.Remove(cardStore);
-        Debug.Log("after " + cards.Count);
-        Debug.Log("discardedCards " + discardedCards.Count);
 
         return cardStore;
     }

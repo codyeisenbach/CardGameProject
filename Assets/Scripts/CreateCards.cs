@@ -15,10 +15,6 @@ public class CreateCards : ScriptableObject
         "Clubs",
         "Spades"};
 
-    string[] cardRanks = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
-
-    Sprite[] cardImages; // Array of card images to assign to the Card Scriptable Objects
-
     Dictionary<string, int> cardValues = new Dictionary<string, int>()
     {
         {"A", 1},
@@ -35,11 +31,6 @@ public class CreateCards : ScriptableObject
         {"Q", 10},
         {"K", 10}
     };
-    //scores.Add("Alice", 10);
-    //scores.Add("Bob", 20);
-    //scores.Add("Charlie", 30);
-
-    //int bobsScore = scores["Bob"]; // bobsScore is 20
 
     void Awake()
     {
@@ -63,6 +54,7 @@ public class CreateCards : ScriptableObject
                     card.cardName = cardName;
                     card.name = cardName;
                     card.cardValue = cardValue.Value;
+                    card.cardRank = cardValue.Key;
                     card.cardImage = sprite;
 
                     AssetDatabase.CreateAsset(card, "Assets/GameData/Cards/" + cardName + ".asset");
