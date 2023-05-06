@@ -147,7 +147,6 @@ GameObject:
   - component: {fileID: 6885409195847577383}
   - component: {fileID: 6885409195847577382}
   - component: {fileID: 6885409195847577385}
-  - component: {fileID: 1593627508}
   m_Layer: 5
   m_Name: DrawButton
   m_TagString: Untagged
@@ -258,9 +257,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1593627508}
-        m_TargetAssemblyTypeName: DrawCards, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 7043928537111947090, guid: 1fda4cdaeee9847999f2444f9065f4c4, type: 3}
+        m_TargetAssemblyTypeName: CardManager, Assembly-CSharp
+        m_MethodName: DrawCard
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -270,15 +269,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1593627508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6885409195847577386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4336903eb948f47e1835ec0f37543db4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

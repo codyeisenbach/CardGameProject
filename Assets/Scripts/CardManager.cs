@@ -13,9 +13,10 @@ public class CardManager : MonoBehaviour
         public GameObject activeCard;
         public GameObject playerArea;
         Card[] cards;
+        bool hasShuffled = false;
 
 
-        private void Awake()
+    private void Awake()
         {
             cards = new Card[2]; // Draw 2 cards
             LoadDeck();
@@ -23,21 +24,23 @@ public class CardManager : MonoBehaviour
 
         public void LoadDeck()
         {
+            Debug.Log("DrawCard Player Hand Length before: " + cards.Length);
             DeckLoader newDeckLoaderComp = gameObject.AddComponent<DeckLoader>();
             newDeckLoaderComp.OnDeckLoaded += DeckLoaded;
             newDeckLoaderComp.LoadDeck(playersDeck);
-            playersDeck.RefillDeck();
+            Debug.Log("DrawCard Player Hand Length after: " + cards.Length);
+        }
 
-    }
-
-    private void DeckLoaded()
+        private void DeckLoaded()
         {
-            Debug.Log("Deck loaded");
+            playersDeck.EmptyDiscarded();
             //setup initial cards
             for (int i = 0; i < cards.Length; i++)
             {
                 StartCoroutine(AddCardToDeck());
             }
+
+        //Debug.Log("DeckLoaded Player Hand: " + cards.Length);
         }
 
         //adds a new card to the deck
@@ -59,20 +62,26 @@ public class CardManager : MonoBehaviour
 
         public void DrawCard()
         {
+            Debug.Log("hasShuffled: " + hasShuffled);
             PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
-        if (playerComponent.scoreValue >= playerComponent.losingValue)
-        {
-            ShuffleDeck();
-            LoadDeck();
-        }
-        else
-            StartCoroutine(AddCardToDeck(.5f));
-        }
+            if (playerComponent.scoreValue >= playerComponent.losingValue || playerComponent.scoreValue == playerComponent.winningValue || hasShuffled == true)
+            {
+                ShuffleDeck();
+                LoadDeck();
+            }
+            else if (playerComponent.scoreValue < 21)
+                StartCoroutine(AddCardToDeck());
 
-        public void ShuffleDeck()
+            Debug.Log("DrawCard Player Hand Length: " + cards.Length);
+
+            hasShuffled = false;
+    }
+
+    public void ShuffleDeck()
         {
             playersDeck.RefillDeck();
             EmptyPlayerHand();
+            hasShuffled = true;
         }
 
         public void GetScore()

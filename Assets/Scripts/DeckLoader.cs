@@ -20,7 +20,6 @@ public class DeckLoader : MonoBehaviour
 
     private void OnResourcesRetrieved(AsyncOperationHandle<IList<CardData>> obj)
     {
-        Debug.Log("Addressable Result" + obj.Result);
         targetDeck.CardsRetrieved((List<CardData>)obj.Result);
 
         if (OnDeckLoaded != null)

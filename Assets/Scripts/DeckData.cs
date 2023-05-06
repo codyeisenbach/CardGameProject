@@ -60,9 +60,14 @@ public class DeckData : ScriptableObject
             currentCard = 0;
         }
 
+        Debug.Log("GetNextCardFromDeck cards before: " + cards.Count);
+        Debug.Log("GetNextCardFromDeck discardedCards before: " + discardedCards.Count);
         cardStore = cards[currentCard];
         discardedCards.Add(cardStore);
         cards.Remove(cardStore);
+        Debug.Log("GetNextCardFromDeck discardedCards after: " + discardedCards.Count);
+        Debug.Log("GetNextCardFromDeck cards after: " + cards.Count);
+
 
         return cardStore;
     }
@@ -70,8 +75,16 @@ public class DeckData : ScriptableObject
     public void RefillDeck()
     {
         cards.AddRange(discardedCards);
-        discardedCards.RemoveRange(0, discardedCards.Count);
+        Debug.Log("RefillDeck RemoveRange before: " + discardedCards.Count);
+        EmptyDiscarded();
+        Debug.Log("RefillDeck RemoveRange after: " + discardedCards.Count);
+        Debug.Log("RefillDeck cards count after: " + cards.Count);
         ShuffleCards();
+    }
+
+    public void EmptyDiscarded()
+    {
+        discardedCards.RemoveRange(0, discardedCards.Count);
     }
 }
 

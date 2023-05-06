@@ -22,6 +22,9 @@ public class PlayerManager : MonoBehaviour
     private int GetPlayerScore()
     {
         scoreValue = 0;
+        aceCount = 0;
+        int aceValue1 = 21 - scoreValue;
+        int aceValue11 = 21 - (scoreValue + 10);
         for (int i = 0; i < playerArea.transform.childCount; i++)
         {
             Card currentChild = playerArea.transform.GetChild(i).GetComponent<Card>();
@@ -38,13 +41,9 @@ public class PlayerManager : MonoBehaviour
         }
             for (int j = 0; j < aceCount; j++)
             {
-                int aceValue1 = 21 - (scoreValue + 1);
-                int aceValue11 = 21 - (scoreValue + 11);
-
-            if (aceValue11 < aceValue1)
-                scoreValue = scoreValue + 10;
-                score = scoreValue.ToString();
-                return scoreValue;
+            if (aceValue11 > 0 && aceValue11 <= 21 && aceValue11 < aceValue1)
+                if (scoreValue + 10 < losingValue)
+                    scoreValue = scoreValue + 10;
             }
 
         score = scoreValue.ToString();
