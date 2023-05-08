@@ -66,8 +66,10 @@ public class CardManager : MonoBehaviour
             PlayerManager playerComponent = playerManager.GetComponent<PlayerManager>();
             if (playerComponent.scoreValue >= playerComponent.losingValue || playerComponent.scoreValue == playerComponent.winningValue || hasShuffled == true)
             {
-                ShuffleDeck();
-                LoadDeck();
+            //ShuffleDeck();
+            playersDeck.RefillDeck();
+            EmptyPlayerHand();
+            LoadDeck();
             }
             else if (playerComponent.scoreValue < 21)
                 StartCoroutine(AddCardToDeck());
@@ -80,6 +82,7 @@ public class CardManager : MonoBehaviour
     public void ShuffleDeck()
         {
             playersDeck.RefillDeck();
+            playersDeck.ShuffleCards();
             EmptyPlayerHand();
             hasShuffled = true;
         }

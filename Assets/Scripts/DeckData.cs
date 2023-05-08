@@ -32,8 +32,10 @@ public class DeckData : ScriptableObject
         cards = new List<CardData>();
         for (int c = 0; c < totalCards; c++)
         {
+            Debug.Log("Card Order pre shuffle: " + cardDataDownloaded[c]);
             cards.Add(cardDataDownloaded[c]);
         }
+        ShuffleCards();
     }
 
     public void ShuffleCards()
@@ -45,12 +47,15 @@ public class DeckData : ScriptableObject
             CardData temp = cards[randomIndex];
             cards[randomIndex] = cards[i];
             cards[i] = temp;
+            Debug.Log("Card Order post shuffle: " + cards[i]);
+
         }
     }
 
     //returns the next card in the deck.
     public CardData GetNextCardFromDeck()
     {
+        
         if (currentCard <= 0)
             ShuffleCards();
 
@@ -60,14 +65,9 @@ public class DeckData : ScriptableObject
             currentCard = 0;
         }
 
-        Debug.Log("GetNextCardFromDeck cards before: " + cards.Count);
-        Debug.Log("GetNextCardFromDeck discardedCards before: " + discardedCards.Count);
         cardStore = cards[currentCard];
         discardedCards.Add(cardStore);
         cards.Remove(cardStore);
-        Debug.Log("GetNextCardFromDeck discardedCards after: " + discardedCards.Count);
-        Debug.Log("GetNextCardFromDeck cards after: " + cards.Count);
-
 
         return cardStore;
     }
@@ -75,10 +75,7 @@ public class DeckData : ScriptableObject
     public void RefillDeck()
     {
         cards.AddRange(discardedCards);
-        Debug.Log("RefillDeck RemoveRange before: " + discardedCards.Count);
         EmptyDiscarded();
-        Debug.Log("RefillDeck RemoveRange after: " + discardedCards.Count);
-        Debug.Log("RefillDeck cards count after: " + cards.Count);
         ShuffleCards();
     }
 
